@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Seu Nome Aqui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h1>Olá, eu sou [Seu Nome]</h1>
+            <p>Sou estudante de [Seu Curso] na Uninter e este é o meu portfólio acadêmico.</p>
+            <img src="sua-foto.jpg" alt="Foto de [Seu Nome]" width="200">
+        </section>
+
+        <hr>
+
+        <section id="formacao">
+            <h2>Minha Formação</h2>
+            <article>
+                <h3>Graduação em [Seu Curso]</h3>
+                <p>Centro Universitário Internacional UNINTER (2024 - Atual)</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <section id="portfolio">
+            <h2>Meus Projetos</h2>
+            <div class="projeto-card">
+                <h3>Projeto de Lógica de Programação</h3>
+                <p>Desenvolvimento de um sistema em Python para cálculo de médias.</p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form id="formContato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Seu nome completo">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="seu@email.com">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="feedback"></p> </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido por [Seu Nome]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
